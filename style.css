@@ -62,9 +62,9 @@ nav ul li a{
 }
 
 #home img:hover{
-    transform: scale(2.50);
+    transform: scale(1.50);
 }
-}
+
 
 #home h1{
     margin-top:20px;
