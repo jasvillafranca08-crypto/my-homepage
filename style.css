@@ -1,0 +1,120 @@
+/* Global reset and base styles */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f3f3f3;
+    color:#333333;
+}
+
+/* Navigation bar styling */
+nav{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px 10%;
+    background:#ffffff;
+    border-bottom:1px solid #d1d5db;
+}
+
+nav h2{
+    color:#4b5563;
+    text-align:center;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:20px;
+}
+
+nav ul li a{
+    color:#4b5563;
+    text-decoration:none;
+}
+
+/* Home / hero section styling */
+#home{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    width:100%;
+    background:#ffffff;
+}
+
+#home img{
+    width:220px;
+    height:220px;
+    border-radius:35%;
+    object-fit:cover;
+    border:5px solid #d1d5db;
+     transition: transform 0.5s ease;
+}
+
+#home img:hover{
+    transform: scale(2.50);
+}
+}
+
+#home h1{
+    margin-top:20px;
+    font-size:40px;
+    color:#374151;
+}
+
+#home p{
+    margin:15px 0;
+    font-size:20px;
+    color:#6b7280;
+}
+
+/* Button styling */
+.btn{
+    display:inline-block;
+    background:#e5e7eb;
+    color:#374151;
+    padding:12px 25px;
+    text-decoration:none;
+    border-radius:8px;
+}
+
+/* About, skills, and contact section styling */
+#about,
+#skills,
+#contact{
+    padding:80px 10%;
+    text-align:center;
+    background:#f9fafb;
+}
+
+#about h2,
+#skills h2,
+#contact h2{
+    margin-bottom:20px;
+    color:#4b5563;
+}
+
+#skills ul{
+    list-style:none;
+    padding:0;
+    color:#6b7280;
+}
+
+/* Footer styling */
+footer{
+    background:#ffffff;
+    color:#6b7280;
+    text-align:center;
+    padding:20px;
+    border-top:1px solid #e5e7eb;
+}
